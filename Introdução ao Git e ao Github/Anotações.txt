@@ -1,0 +1,8 @@
+COMANDOS DO GIT
+
+git help                                   AJUDA
+git config --global user.name              INSERE NOME
+git config --global user.email "EMAIL"     INSERE EMAIL
+git config --list                          LISTAR CONFIGURAÇÕES
+git init                                   CRIAR NOVO REPOSITÓRIO
+git status                                 VERIFICAR ESTADO E ARQUIVOS E DIRETÓRIOS
