@@ -1,8 +1,36 @@
+GIT
+Estados
+Modificado (modified);
+Preparado (staged/index)
+Consolidado (comitted);
+
 COMANDOS DO GIT
 
-git help                                   AJUDA
-git config --global user.name              INSERE NOME
-git config --global user.email "EMAIL"     INSERE EMAIL
-git config --list                          LISTAR CONFIGURAÇÕES
-git init                                   CRIAR NOVO REPOSITÓRIO
-git status                                 VERIFICAR ESTADO E ARQUIVOS E DIRETÓRIOS
+git help                                              AJUDA
+git config --global user.name                         INSERE NOME
+git config --global user.email "EMAIL"                INSERE EMAIL
+git config --list                                     LISTAR CONFIGURAÇÕES
+git init                                              CRIAR NOVO REPOSITÓRIO
+git status                                            VERIFICAR ESTADO E ARQUIVOS E DIRETÓRIOS
+git add .                                             ADICIONA TODOS OS ARQUIVOS/DIRETÓRIOS
+git commit meu_arquivo.txt                            COMITAR 1 ARQUIVO
+git commit meu_arquivo.txt meu_outro_arquivo.txt      COMITAR VÁRIOS ARQUIVOS
+git rm meu_arquivo.txt                                REMOVER ARQUIVO
+git rm -r diretorio                                   REMOVER DIRETÓRIO
+git log                                               EXIBIR HISTÓRICO
+git clone                                             CLONAR UM REPOSITÓRIO EXISTENTE
+git push                                              ENVIAR ARQUIVOS/DIRETÓRIOS PARA UM REPOSITÓRIO REMOTO
+git pull                                              ATUALIZAR REPOSITÓRIO LOCAL DE ACORDO COM O REPOSITÓRIO REMOTO
+
+SHA1 SECURE HASH ALGORITHYM  - ENCRIPTAÇÃO DESENVOLVIDA PELA NSA (40 DIGITOS
+
+OBJETOS INTERNOS DO GIT
+
+BLOBS
+
+TREES
+
+COMMITS
+
+CONFLITO DE MERGE: Os conflitos de merge ocorrem quando alterações concorrentes são feitas na mesma linha de um arquivo ou quando uma pessoa edita um arquivo e outra pessoa exclui o mesmo arquivo. 
+
