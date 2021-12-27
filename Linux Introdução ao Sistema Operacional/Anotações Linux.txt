@@ -1,0 +1,308 @@
+LINUX
+ CRIADO POR LINUS TORVALDS EM 1991
+O LINUX É O KERNEL OU NÚCLEO DO SISTEMA OPERACIONAL
+
+	SHELL: LINHA DE COMANDO
+
+É DESENVOLVIDO POR DIVERSAS PESSOAS E EMPRESAS
+DIVERSOS SITEMAS OPERACIONAIS BASEADOS NO LINUX
+MULTITAREFA/MULTIUSUÁRIO
+
+O LINUX PODE SER DISTRIBUIDO POR PESSOAS FISICAS, EMPRESAS OU ORGANIZAÇÕES: DISTRIBUIÇÃO
+
+DISTRIBUIÇÕES MAIS CONHECIDAS: UBUNTU (USO PESSOAL) DEBIAN, SUSE, FEDORA, RED HAT, 
+KALI (SEGUNRAÇÃO DA INFORMAÇÃO)
+
+UBUNTU: SISTEMA OPERACIONAL DE CODIGO ABERTO QUE É DESEN. PELA CANONICAL, MUITO
+
+ACEITO NO MERCADO DE TRABALHO.
+
+link VMWare: https://www.vmware.com/go/getplayer-win
+
+link Ubuntu: https://ubuntu.itsbrasil.net/ubuntu-releases/20.04/ubuntu-20.04-desktop-amd64.iso
+
+TERMINAL, SHELL OU KONSOLE:
+- É UMA LINHA DE COMANDO ONDE PODEMOS EXECUTAR PROGRAMAS ESPECIFICOS DO LINUX
+- A MAIORIA DOS COMANDO SÃO IGUAIS EM DIVERSAS DISTRIBUIÇÕES
+- USADO PARA AUTOMAÇAO DE TAREFAS
+- ABRIR TERMINAL:  CTRL + ALT + T
+
+COMANDO PWD : LISTA A PASTA PESSOAL
+
+COMANDO LS OU DIR LISTA O CONTEUDO DE ARQUIVOS E DIRETÓRIOS DA PASTA EM QUE EU ESTOU
+
+COMANDO CD (CHANGE DIRECTOR) CD + NOME DO DIRETORIO QUE EU QUERO ACESSAR
+
+COMANDO MKDIR : CRIA UMA NOVA PASTA/DIRETÓRIO
+
+COMANDO CD ..   RETORNA AO DIRETORIO ANTERIOR
+
+COMANDO CD ~   VOLTA PARA A PASTA PESSOAL
+
+
+REDES/LINUX
+
+REDE WAN - REDE CONTINENTAL PAÍS-PAÍS
+
+REDE MAN  - REDES METROPOLITANAS  CIDADES
+
+REDE LAN  - REDE LOCAL  RESIDÊNCIA, PREDIOS, ESCOLAS
+
+PROTOCOLO - É A LINGUAGEM DE COMUNICAÇÃO DENTRO DE REDES DIFERENTES
+
+	IP - PROTOCOLO D INTERNET - ENDEREÇO DE IP QUE IDENTIFICA SEU COMPUTADOR NA REDE
+	
+	ICMP - INTERNET CONTROL MESSAGE PROTOCOL) - OBJETIVO DE TROCE DE MENSAGENS
+
+	DNS - DOMAIN NAME SERVER - IDENTIFICA ENDEREÇOS DE IPs e mantem uma tabela 
+	 decom os indereços dos caminhos de algumas redes
+
+INTERFACE DE REDE - é um softare/hardware que faz a comunicação em uma rede de computadores
+                  - LOCALIZADA NO DIRETÓRIO /dv DO LINUX
+		  - ESSAS INTERFACE SÃO CIRADAS DINAMICAMENTE  QUANDO REQUISITADAS.
+		  - EXEMPLO : eth) - pLACA DE REDE ETHERNET - cabeada
+
+INTERFACE DE REDE LOOPBACK: FAZ CONEXAÕ CONSIGO MESMO PARA TESTAR PROGRAMAS SEM INTERFERIR NA REDE PROPRIA
+IP 127.0.0.1
+
+NETMASK (MÁSCARA DE REDE) : SEPARA A MINHA REDE PRIVADA DA PÚBLICA
+
+BROADCAST: ENDEREÇO PÚBLICO DA MINHA REDE LOCAL
+
+ENDEREÇO IPV6: HEXADECIMAL (LETRAS E NÚMEROS)
+
+ETHER (FISICO) ENDEREÇO DA PLACA DE REDE
+
+LOOPBAC -ENDEREÇO LOCAL
+
+ping + "nome do site" -w      w é o tempo
+
+
+hostname - mostra o nome do computador
+
+hostname -I  mosta o endereço de IP
+
+hostname -i mostra o enderço Local
+
+comando whoami - mostra o nome do usuario
+
+DNS (É O DOMÍNIO)  FAZER COMANDO dig no terminal
+
+
+traceroute: traça a rota da sua maquina pro site em questão , numerando os nós.
+
+dig + "nome do site" + short   === mostra o endereço DNS do site
+
+whois  + "nome do site"   ===== mostra o dominio, dono do dominio, o país , o servidos 
+                                DNS, mais informações
+
+finger ==== mostra toda a informação do usuario que esta logado no sistema
+
+history -c  === limpa o historico
+
+alias === dá um nickname em um comando
+
+
+nl  ===== mostra o numero de linhas de um arquivo
+
+wc -l  == mostra o numero de linhas incluindo os espaços
+
+wc  -w == conta o numero de palavras de um arquivo
+
+wc -m === conta o numero de caracteres de um arquivo
+
+ls -a === exibe os arquivos ocultos
+
+last reboot === mostra todas as informações de reinicialização do sistema
+
+route -m === traça todas as tabelas de roteamento do kernel
+
+time === mostra o tempo de um processo
+
+uptime === mostra o tempo que o sistema está rodando
+
+cowsay =====  vaquinha
+
+cmatrix === efeito matrix
+
+init 0   halt (pede autenticação) ===== desliga a maquina
+
+seq 1 10   imprime a sequencia numerica de 1 a 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~$ CD/SEMELHANTE AO C: DO WINDOWS
+
+COMANDO LS -L LISTA OS DIRETORIOS E ARQUIVO COM DETALHES: FORMATO DE LISTA LONGA
+
+COMANDO LS DIR  LISTA UM DIRETORIO
+
+COMANDO MAN LS : LISTA UM MANUAL COM OS COMANDOS
+
+COMANDO HISTORY : LISTA TODOS OS COMANDO UTILIZADOS NO TERMINAL
+
+SETA PARA CIMA TAMBÉM LISTA OS COMANDOS DIGITADOS
+
+!! EXECUTARA NOVAMEMTE OS HISTORY
+
+
+ATALHOS DO LINUX
+
+CRTL + c  CANCELA O COMANDO ATUAL
+
+CRTL + Z PAUSA O COMANDO ATUAL
+
+CRTL + D  FAZ LOGOUT DA SESSÃO ATUAL
+
+CRTL + W  APAGA UMA PALAVRA NA LINHA ATUAL
+
+CRTL + U APAGA A LINHA INTEIRA
+
+CRTL + R BUSCA UM COMANDO RECENTE
+
+!!   REPETE O ÚLTIMO COMANDO
+
+EXIT   DAI DO TERMINAL COMO O CRTL + D
+
+MV MOVE UM ARQUIVO OU RENOMEIA 
+
+TOUCH  CRIA ARQUIVOS VAZIOS
+
+CP COPIA  UM ARQUIVO
+
+TAB   AUTOCOMPLETA
+
+CLEAR   LIMPA A TELA DO TERMINAL
+
+RMDIR    REMOVE DIRETÓRIO
+
+RM   REMOVE ARQUIVOS
+
+SAIR DO TERMINAL   CRTL + D   OU EXIT
+
+Nano - editor de texto do linux
+
+comando  head - só mostra as 10 primeiras linhas
+
+comando cat imprime o texto todo
+
+comando tail imprime as 10 ultimas linhas
+
+> redirecionamento cria outro arquivos
+
+comando cal mostra o calendario do mês
+
+comando date  data do dia
+
+>> redireciona  a saída eadiciona a mesma para um comando ou arquivo
+
+> redireciona a saida de um comando para outro comando ou arquivo
+
+< direciona a entrada de um arquivo para a saida de um comando
+
+
+grep  procura e seleciona uma palavra dentro do arquivo
+
+| (pipe)~: envia a saida de um comando para entrada de outro comando
+permitindo a execução de dois comandos
+
+comando more ou loss  paginação
+
+& permite usar dois comandos e separar suas saidas no terminal
+
+&&
+	ENCONTRAR UM "NOME" DENTRO DE UM ARQUIVO
+1. comando grep encontra um nome dentro do arquivo   grep + "nome" + nome do arquivo.
+  	OU
+2. cat + nome do aquivo | grep + "nome"
+
+comando find  ~ -name "nome do arquivo"  mostra o caminho completo do arquivo
+
+
+COMANDO lspci   visualiza todos os hardware conectados via PCI
+
+COMANDO lsusb   visualiza todos os dispositivos usb
+
+COMANDO arch   mostra a arquitetura do sistema usado
+
+COMANDO uname  mostra o kernel usado = linux
+
+COMANDO uname -r  mostra a versão do kernel
+
+COMANDO uname -m   também tras a arquitetura do kernel
+
+COMANDO free   mostra a saida da memoria fisica e memoria swap (virtual)~
+
+COMANDO du -h  mostra o quanto cada arquivo ocupa de memória no 
+
+
+
+GERENCIAMENTO DE PACOTES NO LINUX
+
+PACOTES: SÃO PROGRAMAS COLOCADOS DENTRO DE UM ARQUIVO IDENTIFICADOS POR SUA EXTENSÃO
+
+GERENCIADORES DE PACOTES: SÃO SISTEMAS QUE POSSUEM RESOLUÇAO AUTOMÁTICA DE DEPENDENCIAS ENTRE PACOTES
+EXS: dpgk, apt e yum
+
+instalaçao de um pacote: sudo apt install "pacote"
+
+atualizaçao de um pacote: sudo  apt upgrade "pacote"
+
+REMOÇÃO DE UM PACOTE: sudo apt remove "nome do pacote"
+
+
+ATUALIZAÇÃO DO SISTEMA: 
+
+ sudo apt update && apt upgrade
+
+sudo su : aumenta o privilegio mudanto pra usuario root
+
+SITES DE PACOTES
+
+pkgs.org                sudo dpkg - i : instala o pacote .deb
+
+			sudo dpkag -I pacote.deb  dá informaçoes ( descrição) sobre o pacote
+
+			sudo dpkg -r nomedopacote (dado na descrição do pacote)
+rpm.pbone.net
+  
+FEDORA
+
+RPM
+instalação de pacotes .rpm   :    sudo rpm -ivh --nodeps "nome do pacote"
+atualização de pacotes .rpm   : rpm -U pacote.rpm
+remoção de pacotes .rpm       :   rpm -e pacote.rpm
+
+YUM 
+instalação de um pacote yum :    sudo yum install pacote
+atualizaçao do pacote yum :   sudo yum update pacote
+remoçao do pacote yum  :  sudo yum remove pacote
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
